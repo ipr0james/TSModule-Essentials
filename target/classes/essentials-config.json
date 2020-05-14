@@ -1,0 +1,59 @@
+{
+  "version-control": {
+    "version": 1.1
+  },
+  "list-groups": {
+    "Staff": [
+      "Owner",
+      "Admin",
+      "Moderator"
+    ],
+    "Donator": [
+      "VIP"
+    ],
+    "Users": [
+      "User"
+      ]
+  },
+  "connection": {
+    "first-join": {
+      "total": 0,
+      "give-items": true,
+      "message": {
+        "enabled": true,
+        "message": "%player% &7has joined for the first time!!. %player-count%"
+      }
+    },
+    "join": {
+      "message": {
+        "enabled": false,
+        "message": "&d%player% has joined the server."
+      },
+      "title": {
+        "enabled": false,
+        "title": "",
+        "sub-title": ""
+      }
+    }
+  },
+  "teleport": {
+    "spawn": 3
+  },
+  "homes": {
+    "default": 1,
+    "vip": 10,
+    "admin": 100
+  },
+  "death-message": {
+    "enabled": true
+  },
+  "silk-spawners": {
+    "enabled": true,
+    "name": "&d%type% Spawner"
+  },
+  "enderpearl-cooldown": {
+    "enabled": false,
+    "duration": 10,
+    "message": "%prefix.error% You cannot enderpearl for another &c%time% &7%value%."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "armor": {
+    "HELMET": {
+      "item": "DIAMOND_HELMET",
+      "name": "THE BIG KAHOONAAAA",
+      "enchantments": {
+        "PROTECTION": 17
+      }
+    }
+  },
+  "items": [
+    {
+      "slot": 1,
+      "item": "STICK",
+      "name": "&dBig DICK",
+      "enchantments": {
+        "DIG_SPEED": 1
+      }
+    }
+  ]
+}

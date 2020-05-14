@@ -1,0 +1,23 @@
+{
+  "name": "Essentials",
+  "version": "1.0.0",
+  "main": "net.thenova.titan.spigot.module.essentials.Essentials",
+  "permissions": {
+    "randomtp.admin": {
+      "default": "OP",
+      "description": "Use all features of RandomTP",
+      "children": {
+        "randomtp.bypass": true,
+        "titan.command.randomtp": true
+      }
+    },
+    "randomtp.bypass": {
+      "default": "OP",
+      "description": "Allows the player to bypass the teleport cooldown"
+    },
+    "titan.command.randomtp": {
+      "default": "true",
+      "description": "Allows a player to use the RandomTP command"
+    }
+  }
+}
